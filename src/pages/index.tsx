@@ -29,7 +29,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <div style={{ margin: "3rem 0" }}>
-        <Link href="sobre">Sobre</Link>
+        <Link href="sobre">sobre</Link>
       </div>
       {data?.map(({ id, title, src }) => {
         return (
